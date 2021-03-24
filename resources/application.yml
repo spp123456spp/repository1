@@ -1,0 +1,18 @@
+# 开发人员在本地启动请使用dev，并使用本地的redis等。测试环境会采用test分支的配置。
+spring:
+  # 环境 dev|test|prod
+  profiles:
+    #active: dev
+
+
+eureka:
+  client:
+    enabled: false
+
+
+#  security:
+#    user:
+#      name: admin
+#      password: 123456
+#  activiti:
+#    check-process-definitions: false
